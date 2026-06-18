@@ -2,7 +2,7 @@ name: StarterKitPlugin
 version: 1.1
 main: com.grok.starterkit.StarterKitPlugin
 api-version: '1.21'
-author: Grok
+author: __M0ko
 description: Gives new players a starter kit on first join (one-time only) + /starterkit command
 
 commands:
