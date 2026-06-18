@@ -1,0 +1,13 @@
+name: StarterKitPlugin
+version: 1.1
+main: com.grok.starterkit.StarterKitPlugin
+api-version: '1.21'
+author: Grok
+description: Gives new players a starter kit on first join (one-time only) + /starterkit command
+
+commands:
+  starterkit:
+    description: Gives the starter kit to yourself or another player
+    usage: /starterkit [player]
+    permission: starterkit.give
+    permission-message: You don't have permission to use this command!
